@@ -58,11 +58,11 @@ def imageGrab():
     grayImage = ImageOps.grayscale(image)
 
     # using numpy to get sum of all grayscale pixels
-    a = numpy.array(grayImage.getcolors())
+    a_list = numpy.array(grayImage.getcolors())
 
     # returning the sum
-    print(a.sum())
-    return a.sum()
+    print(sum(a_list))
+    return a_list.sum()
 
 
 # function to restart the game
