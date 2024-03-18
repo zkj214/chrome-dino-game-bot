@@ -68,7 +68,6 @@ def imageGrab():
 # function to restart th e game
 restartGame()
 while True:
-    pyautogui.keyDown('down')
     # 435 is the sum of white pixels values of box.
     # You may get different value if you are taking bigger
     # or smaller box than the box taken in this article.
