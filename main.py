@@ -22,7 +22,6 @@ def restartGame():
     pyautogui.click(coordinates.replaybutton)
 
 
-
 def press_space():
     # releasing the  Down Key
     pyautogui.keyUp('down')
@@ -41,7 +40,7 @@ def press_space():
     # releasing the Space Key
     pyautogui.keyUp('space')
 
-     # again pressing the Down Key to keep my Bot always down
+    # again pressing the Down Key to keep my Bot always down
     pyautogui.keyDown('down')
 
 
@@ -65,7 +64,7 @@ def imageGrab():
     return a_list.sum()
 
 
-# function to restart th e game
+# function to restart the game
 restartGame()
 while True:
     # 435 is the sum of white pixels values of box.
