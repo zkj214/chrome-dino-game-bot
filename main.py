@@ -61,7 +61,7 @@ def imageGrab():
     a_list = numpy.array(grayImage.getcolors()) 
 
     # returning the sum
-    print(sum(a_list))
+    print(a_list.sum())
     return a_list.sum()
 
 
