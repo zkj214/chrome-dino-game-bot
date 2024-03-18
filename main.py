@@ -58,7 +58,7 @@ def imageGrab():
     grayImage = ImageOps.grayscale(image)
 
     # using numpy to get sum of all grayscale pixels
-    a_list = numpy.array(grayImage.getcolors())
+    a_list = numpy.array(grayImage.getcolors()) 
 
     # returning the sum
     print(sum(a_list))
@@ -75,5 +75,3 @@ while True:
     # it means either bird or bush is  coming towards dinosaur
     if (imageGrab() != 435):
         press_space()
-        # time to recognize the operation performed by above function
-        time.sleep(0.1)
