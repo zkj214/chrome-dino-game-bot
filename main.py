@@ -42,7 +42,7 @@ def press_space():
 restartGame()
 while True:
     img=pyautogui.screenshot()
-    screen=img.getpixel((408, 524))
+    screen=img.getpixel((408, 524)) #output is rgb tuple
     x1=img.getpixel((227, 589))
     x2=img.getpixel((273, 767))
     x3=img.getpixel((205, 767))
