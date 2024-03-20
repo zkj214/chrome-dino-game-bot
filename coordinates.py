@@ -8,5 +8,4 @@ def get_coordinates():
     return coor
 
 
-xy=get_coordinates()
-print(xy)
+print(get_coordinates())
